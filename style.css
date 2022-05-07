@@ -17,7 +17,7 @@ h1 {
   justify-content: center;
   padding: 10px;
   margin: 10px;
-  font-size: 70px;
+  font-size: 60px;
   font-family: 'Arial, sans-serif;
 }
 
@@ -33,6 +33,14 @@ h1 {
   background-color: rgba(221, 221, 221, 0.208);
 }
 
+.flexIndex {
+  flex: 1;
+}
+
+.flexPhoto {
+  flex: 1;
+}
+
 h2 {
   margin-bottom: 10px;
   font-size: 40px;
@@ -46,9 +54,13 @@ h2 {
   text-align: center;
 }
 
-.spaceIndex {
-  padding: 0px;
-  margin: 0px;
+.subtitleIndex {
+  width: 80%;
+  text-align: center;
+}
+
+.centerList {
+  margin-left: 28%;
 }
 
 .about {
@@ -65,6 +77,7 @@ h2 {
 
 #foto {
   border-radius: 100%;
+  width: 400px;
 }
 
 .skills {
@@ -122,7 +135,20 @@ h2 {
   background-color: rgba(221, 221, 221, 0.208);
 }
 
-a, li {
+a {
   text-decoration: none;
   list-style: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: white;
+}
+
+.facebook {
+  width: 40px;
+  height: 40px;
 }
