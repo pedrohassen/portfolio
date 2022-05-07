@@ -5,82 +5,88 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio em HTML de Pedro Hasse Niemczewski</title>
+  <title>Portfólio Web de Pedro H. N.</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <h1><a href="#foto">Pedro Hasse Niemczewski</a></h1>
+  <h1><a href="#foto">PEDRO HASSE NIEMCZEWSKI</a></h1>
 
-  <h2>Índice</h2>
-  <ul>
-    <li><a href="#about">Sobre mim</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#interesses">Interesses</a></li>
-    <li><a href="#mais">Mais</a></li>
-  </ul>
+  <section class="index">
+    <div>
+      <h2 class="spaceIndex subtitle">Índice:</h2>
+      <ul>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#interesses">Interesses</a></li>
+        <li><a href="#mais">Mais</a></li>
+      </ul>
+    </div>
 
-  <img id="foto" src="./images/pedro.jpeg" alt="Foto de Pedro Hasse Niemczewski" width="400px">
+    <img id="foto" src="./images/pedro.jpeg" alt="Foto de Pedro Hasse Niemczewski" width="400px">
+  </section>
 
-  <h2>Sobre mim:</h2>
-  <p id="about">
-    Eu sou Brasileiro, tenho 35 anos e sou natural de Pelotas, Rio Grande do Sul.
-    Fiz CEFET-RS no ensino médio e cursei Eletrônica até a metade, foi onde descobri meu interesse por Programação, além
-    de já ter uma paixão por games e tudo do universo da Tecnologia.
-    Acabei me formando em Administração, com Ênfase em Comércio Exterior, fazendo também uma Pós-Graduação em Gestão de
-    Negócios.
-    Por algum tempo foquei apenas em concursos públicos, mas acabei trabalhando como Arquivista em Rio Grande por quase
-    1 ano.
-    Depois voltei para os concursos e mais uma vez tentei outra área, dessa vez como Corretor Imobiliário, por quase 3
-    anos me dediquei a isso e obtive grande experiência.
-    Atualmente estou em transição de carreira, me dedicando ao máximo nos meus estudos na Trybe.
-    Com muito esforço e dedicação, vou me tornar um Desenvolvedor Web.
-    Eu adoro ler, em especial livros de fantasia, que remetem a minha paixão por games, em especial aos de RPG, onde a
-    imaginação e a criatividade vão longe, e as aventuras parecem jamais ter um fim.
-    Além da leitura, gosto de cinema, jogos de tabuleiro, RPG de mesa e me esforço para manter uma rotina e alimentação
-    saudáveis, porque prezo e muito a minha saúde e a dos meus entes queridos.
-  </p>
-  <h2 id="habilidades">Soft Skills:</h2>
-  <ul>
-    <em>
-      <li><strong>Estabilidade Emocional</strong></li>
-      <li>Facilitação</li>
-      <li><strong>Consideração pelos outros</strong></li>
-      <li>Reflexão</li>
-      <li>Lealdade</li>
-      <li>Honestidade</li>
-      <li>Determinação</li>
-      <li>Flexibilidade</li>
-    </em>
-  </ul>
-  <h2>Hard Skills:</h2>
-  <ul>
-    <em>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>Git</li>
-    </em>
-  </ul>
-  <h2 id="interesses">Interesses:</h2>
-  <ul>
-    <li><a href="https://store.steampowered.com/?l=portuguese" target="_blanck">Games</a></li>
-    <br>
-    <li><a href="https://www.youtube.com/" target="_blanck">YouTube</a></li>
-    <br>
-    <li><a href="https://www.netflix.com/br/" target="_blanck">Netflix</a></li>
-    <br>
-  </ul>
-  <h2 id="mais">Mais sobre mim e meu trabalho:</h2>
-  <ul>
-    <li><a href="https://www.facebook.com/pedrohassencorretor/" target="_blanck">Facebook</a></li>
-    <br>
-    <li><a href="https://www.instagram.com/pedrohasseniem/" target="_blanck">Instagram</a></li>
-    <br>
-    <li><a href="https://www.linkedin.com/in/pedrohassen/" target="_blanck">Linkedin</a></li>
-    <br>
-    <li><a href="https://github.com/pedrohassen" target="_blanck">GitHub</a></li>
-  </ul>
-
+  <section class="about">
+    <h2 class="subtitle" id="about">Sobre mim:</h2>
+    <p>
+      Eu sou Brasileiro, tenho 35 anos e sou natural de Pelotas, Rio Grande do Sul.<br>
+      Sou formado em Administração, com Ênfase em Comércio Exterior, fazendo também uma Pós-Graduação em Gestão de
+      Negócios.<br>
+      Por algum tempo foquei apenas em concursos públicos, mas acabei trabalhando como Arquivista em Rio Grande por
+      quase 1 ano.<br>
+      Depois fui Corretor de Imóveis, por quase 3 anos. Atualmente estou em transição de carreira, me dedicando ao
+      máximo nos meus estudos na Trybe.<br>
+      Eu adoro ler, em especial livros de fantasia, que remetem a minha paixão por games, em especial aos de RPG, onde a
+      imaginação e a criatividade vão longe, e as aventuras parecem jamais ter um fim.<br>
+      Também gosto de cinema, jogos de tabuleiro, RPG de mesa e me esforço para manter uma rotina e alimentação
+      saudáveis, porque prezo e muito a minha saúde e a dos meus entes queridos.
+    </p>
+  </section>
+  <div class="skills">
+  <section class="softSkills">
+    <h2 id="habilidades">Soft Skills:</h2>
+    <ul>
+      <em>
+        <li><strong>Estabilidade Emocional</strong></li>
+        <li>Facilitação</li>
+        <li><strong>Consideração pelos outros</strong></li>
+        <li>Reflexão</li>
+        <li>Lealdade</li>
+        <li>Honestidade</li>
+        <li>Determinação</li>
+        <li>Flexibilidade</li>
+      </em>
+    </ul>
+  </section>
+  <section class="hardSkills">
+    <h2>Hard Skills:</h2>
+    <ul>
+      <em>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Git</li>
+      </em>
+    </ul>
+  </section>
+  </div>
+  <section class="interests">
+    <h2 class="subtitle" id="interesses">Interesses:</h2>
+    <ul>
+      <li><a href="https://store.steampowered.com/?l=portuguese" target="_blanck">Games</a></li>
+      <li><a href="https://www.youtube.com/" target="_blanck">YouTube</a></li>
+      <li><a href="https://www.netflix.com/br/" target="_blanck">Netflix</a></li>
+    </ul>
+  </section>
+  <section class="more">
+    <h2 class="subtitle" id="mais">Mais sobre mim e meu trabalho:</h2>
+    <ul>
+      <li><a href="https://www.facebook.com/pedrohassencorretor/" target="_blanck">Facebook</a></li>
+      <li><a href="https://www.instagram.com/pedrohasseniem/" target="_blanck">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/pedrohassen/" target="_blanck">Linkedin</a></li>
+      <li><a href="https://github.com/pedrohassen" target="_blanck">GitHub</a></li>
+    </ul>
+  </section>
 </body>
 
 </html>
