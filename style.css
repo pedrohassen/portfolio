@@ -18,7 +18,7 @@ h1 {
   padding: 10px;
   margin: 10px;
   font-size: 60px;
-  font-family: 'Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .index {
@@ -143,12 +143,44 @@ a {
 }
 
 a:hover {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bolder;
   color: white;
 }
 
-.facebook {
-  width: 40px;
-  height: 40px;
+figure, figure img {
+  width: 64px;
+  height: 64px;
+}
+
+#facebook {
+  background-image: url('./images/face1.png');
+}
+
+#facebook:hover {
+  background-image: url('./images/face2.png');
+}
+
+#insta {
+  background-image: url('./images/insta1.png');
+}
+
+#insta:hover {
+  background-image: url('./images/insta2.png');
+}
+
+#linke {
+  background-image: url('./images/linke1.png');
+}
+
+#linke:hover {
+  background-image: url('./images/linke2.png');
+}
+
+#git {
+  background-image: url('./images/git1.png');
+}
+
+#git:hover {
+  background-image: url('./images/git2.png');
 }
