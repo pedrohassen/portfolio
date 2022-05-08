@@ -46,8 +46,13 @@ h1 {
   font-size: 30px;
   margin: 10px;
   height: 550px;
-  width: 100%;
+  width: 45%;
   background-color: rgba(221, 221, 221, 0.208);
+}
+
+#foto {
+  border-radius: 100%;
+  width: 95%;
 }
 
 .index li {
@@ -109,11 +114,6 @@ line-height: 25px;
 .strong {
   font-weight: bold;
   text-decoration: underline;
-}
-
-#foto {
-  border-radius: 100%;
-  width: 400px;
 }
 
 .skills {
