@@ -16,15 +16,37 @@ h1 {
   font-family: 'Arial', sans-serif;
 }
 
+.flags {
+  display: flex;
+}
+
+.brazil {
+  padding: 10px;
+  width: 100px;
+  flex: 1;
+}
+
+.brazil:hover {
+  width: 120px;
+}
+
+.eua {
+  width: 120px;
+  flex: 1;
+}
+
+.eua:hover {
+  width: 140px;
+}
+
 .index {
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 30px;
-  padding: 6.5px;
-  margin: 6.5px;
+  margin: 10px;
   height: 550px;
-  width: 50%;
+  width: 100%;
   background-color: rgba(221, 221, 221, 0.208);
 }
 
@@ -74,7 +96,7 @@ h2 {
   height: 50%;
   width: 50%;
   font-size: 20px;
-  padding: 20px;
+  padding: 30px;
   margin: 20px;
 }
 
@@ -97,9 +119,9 @@ line-height: 25px;
 .skills {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 100%;
   font-size: 30px;
-  padding: 10px;
+  padding: 30px;
   margin: 10px;
   background-color: rgba(221, 221, 221, 0.208);
 }
@@ -131,31 +153,56 @@ line-height: 25px;
 }
 
 .interests {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 70%;
+  height: 45%;
   width: 50%;
-  font-size: 30px;
   padding: 30px;
 }
 
-.more {
+.flexInterests {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.flexSteam {
+  display: inline-block;
+}
+
+.flexYoutube {
+  display: inline-block;
+}
+
+.flexNetflix {
+  display: inline-block;
+}
+
+.more {
   height: 45%;
-  width: 50%;
-  font-size: 30px;
-  padding: 40px;
+  width: 100%;
+  padding: 30px;
   background-color: rgba(221, 221, 221, 0.208);
 }
 
-.logosHorizontal {
+.flexMore {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexFace {
+  display: inline-block;
+}
+
+.flexInsta {
+  display: inline-block;
+}
+
+.flexLinke {
+  display: inline-block;
+}
+
+.flexGit {
+  display: inline-block;
 }
 
 a {
