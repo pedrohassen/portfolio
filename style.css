@@ -110,9 +110,9 @@ h2 {
 }
 
 .aboutMe {
-font-style: italic;
-letter-spacing: 0.05em;
-line-height: 25px;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  line-height: 25px;
 }
 
 .strong {
@@ -198,7 +198,10 @@ line-height: 25px;
   width: 100%;
 }
 
-.flexFace, .flexInsta, .flexLinke, .flexGit {
+.flexFace,
+.flexInsta,
+.flexLinke,
+.flexGit {
   display: inline-block;
 }
 
